@@ -1,0 +1,2151 @@
+[
+    {
+        "balance": 19.86,
+        "category": "Entertainment",
+        "date": "2024-11-07",
+        "description": "Streaming Service",
+        "value": 19.86
+    },
+    {
+        "balance": 37.47,
+        "category": "Shopping",
+        "date": "2024-11-08",
+        "description": "Clothing",
+        "value": 17.61
+    },
+    {
+        "balance": 46.79,
+        "category": "Travel",
+        "date": "2024-11-08",
+        "description": "Taxi",
+        "value": 9.32
+    },
+    {
+        "balance": 125.07,
+        "category": "Entertainment",
+        "date": "2024-11-09",
+        "description": "Movie Theater",
+        "value": 78.28
+    },
+    {
+        "balance": 158.9,
+        "category": "Groceries",
+        "date": "2024-11-12",
+        "description": "Grocery Store",
+        "value": 33.83
+    },
+    {
+        "balance": 265.13,
+        "category": "Others",
+        "date": "2024-11-14",
+        "description": "Miscellaneous",
+        "value": 106.23
+    },
+    {
+        "balance": 292.67,
+        "category": "Dining",
+        "date": "2024-11-15",
+        "description": "Cafe",
+        "value": 27.54
+    },
+    {
+        "balance": 312.49,
+        "category": "Others",
+        "date": "2024-11-16",
+        "description": "Miscellaneous",
+        "value": 19.82
+    },
+    {
+        "balance": 369.54,
+        "category": "Travel",
+        "date": "2024-11-17",
+        "description": "Taxi",
+        "value": 57.05
+    },
+    {
+        "balance": 412.9,
+        "category": "Dining",
+        "date": "2024-11-18",
+        "description": "Fast Food",
+        "value": 43.36
+    },
+    {
+        "balance": 484.52,
+        "category": "Groceries",
+        "date": "2024-11-20",
+        "description": "Grocery Store",
+        "value": 71.62
+    },
+    {
+        "balance": 500.95,
+        "category": "Groceries",
+        "date": "2024-11-20",
+        "description": "Farmers Market",
+        "value": 16.43
+    },
+    {
+        "balance": 595.64,
+        "category": "Dining",
+        "date": "2024-11-20",
+        "description": "Fast Food",
+        "value": 94.69
+    },
+    {
+        "balance": 743.5,
+        "category": "Others",
+        "date": "2024-11-21",
+        "description": "Miscellaneous",
+        "value": 147.86
+    },
+    {
+        "balance": 874.14,
+        "category": "Others",
+        "date": "2024-11-21",
+        "description": "Miscellaneous",
+        "value": 130.64
+    },
+    {
+        "balance": 944.88,
+        "category": "Travel",
+        "date": "2024-11-22",
+        "description": "Airline",
+        "value": 70.74
+    },
+    {
+        "balance": 973.46,
+        "category": "Others",
+        "date": "2024-11-22",
+        "description": "Miscellaneous",
+        "value": 28.58
+    },
+    {
+        "balance": 1075.64,
+        "category": "Dining",
+        "date": "2024-11-25",
+        "description": "Restaurant",
+        "value": 102.18
+    },
+    {
+        "balance": 1174.61,
+        "category": "Shopping",
+        "date": "2024-11-26",
+        "description": "Clothing",
+        "value": 98.97
+    },
+    {
+        "balance": 1204.43,
+        "category": "Utilities",
+        "date": "2024-11-26",
+        "description": "Internet Bill",
+        "value": 29.82
+    },
+    {
+        "balance": 1308.7,
+        "category": "Utilities",
+        "date": "2024-11-29",
+        "description": "Electric Bill",
+        "value": 104.27
+    },
+    {
+        "balance": 1346.91,
+        "category": "Others",
+        "date": "2024-11-30",
+        "description": "Miscellaneous",
+        "value": 38.21
+    },
+    {
+        "balance": 1410.08,
+        "category": "Groceries",
+        "date": "2024-12-01",
+        "description": "Farmers Market",
+        "value": 63.17
+    },
+    {
+        "balance": 1547.48,
+        "category": "Groceries",
+        "date": "2024-12-01",
+        "description": "Supermarket",
+        "value": 137.4
+    },
+    {
+        "balance": 1598.11,
+        "category": "Utilities",
+        "date": "2024-12-03",
+        "description": "Internet Bill",
+        "value": 50.63
+    },
+    {
+        "balance": 1660.48,
+        "category": "Shopping",
+        "date": "2024-12-03",
+        "description": "Online Store",
+        "value": 62.37
+    },
+    {
+        "balance": 0.44,
+        "category": "Fees",
+        "date": "2024-12-06",
+        "description": "Interest Charges",
+        "value": 0.01
+    },
+    {
+        "balance": 0.43,
+        "category": "Repayment",
+        "date": "2024-12-06",
+        "description": "Credit Card Payment",
+        "value": -2.25
+    },
+    {
+        "balance": 2.74,
+        "category": "Fees",
+        "date": "2024-12-06",
+        "description": "Interest Charges",
+        "value": 0.06
+    },
+    {
+        "balance": 105.02,
+        "category": "Repayment",
+        "date": "2024-12-06",
+        "description": "Credit Card Payment",
+        "value": -1555.46
+    },
+    {
+        "balance": 107.47,
+        "category": "Fees",
+        "date": "2024-12-06",
+        "description": "Interest Charges",
+        "value": 2.45
+    },
+    {
+        "balance": 2.68,
+        "category": "Repayment",
+        "date": "2024-12-06",
+        "description": "Credit Card Payment",
+        "value": -102.34
+    },
+    {
+        "balance": 0.0,
+        "category": "Repayment",
+        "date": "2024-12-07",
+        "description": "Credit Card Payment",
+        "value": -0.05
+    },
+    {
+        "balance": 0.05,
+        "category": "Repayment",
+        "date": "2024-12-07",
+        "description": "Credit Card Payment",
+        "value": -0.38
+    },
+    {
+        "balance": 0.05,
+        "category": "Fees",
+        "date": "2024-12-07",
+        "description": "Interest Charges",
+        "value": 0.0
+    },
+    {
+        "balance": 0.0,
+        "category": "Fees",
+        "date": "2024-12-07",
+        "description": "Interest Charges",
+        "value": 0.0
+    },
+    {
+        "balance": 119.68,
+        "category": "Shopping",
+        "date": "2024-12-09",
+        "description": "Online Store",
+        "value": 91.48
+    },
+    {
+        "balance": 28.2,
+        "category": "Entertainment",
+        "date": "2024-12-09",
+        "description": "Streaming Service",
+        "value": 28.2
+    },
+    {
+        "balance": 211.08,
+        "category": "Travel",
+        "date": "2024-12-10",
+        "description": "Airline",
+        "value": 91.4
+    },
+    {
+        "balance": 324.96,
+        "category": "Shopping",
+        "date": "2024-12-12",
+        "description": "Clothing",
+        "value": 113.88
+    },
+    {
+        "balance": 346.14,
+        "category": "Others",
+        "date": "2024-12-12",
+        "description": "Miscellaneous",
+        "value": 21.18
+    },
+    {
+        "balance": 416.93,
+        "category": "Travel",
+        "date": "2024-12-14",
+        "description": "Taxi",
+        "value": 70.79
+    },
+    {
+        "balance": 460.12,
+        "category": "Shopping",
+        "date": "2024-12-16",
+        "description": "Clothing",
+        "value": 43.19
+    },
+    {
+        "balance": 538.73,
+        "category": "Utilities",
+        "date": "2024-12-16",
+        "description": "Electric Bill",
+        "value": 78.61
+    },
+    {
+        "balance": 587.0,
+        "category": "Groceries",
+        "date": "2024-12-17",
+        "description": "Grocery Store",
+        "value": 48.27
+    },
+    {
+        "balance": 680.3,
+        "category": "Shopping",
+        "date": "2024-12-17",
+        "description": "Clothing",
+        "value": 93.3
+    },
+    {
+        "balance": 795.86,
+        "category": "Entertainment",
+        "date": "2024-12-18",
+        "description": "Concert",
+        "value": 115.56
+    },
+    {
+        "balance": 835.58,
+        "category": "Dining",
+        "date": "2024-12-19",
+        "description": "Cafe",
+        "value": 39.72
+    },
+    {
+        "balance": 977.89,
+        "category": "Entertainment",
+        "date": "2024-12-19",
+        "description": "Streaming Service",
+        "value": 142.31
+    },
+    {
+        "balance": 1053.36,
+        "category": "Groceries",
+        "date": "2024-12-21",
+        "description": "Grocery Store",
+        "value": 75.47
+    },
+    {
+        "balance": 1169.41,
+        "category": "Groceries",
+        "date": "2024-12-22",
+        "description": "Grocery Store",
+        "value": 116.05
+    },
+    {
+        "balance": 1243.33,
+        "category": "Entertainment",
+        "date": "2024-12-23",
+        "description": "Streaming Service",
+        "value": 73.92
+    },
+    {
+        "balance": 1348.36,
+        "category": "Utilities",
+        "date": "2024-12-27",
+        "description": "Internet Bill",
+        "value": 105.03
+    },
+    {
+        "balance": 1411.21,
+        "category": "Shopping",
+        "date": "2024-12-28",
+        "description": "Online Store",
+        "value": 62.85
+    },
+    {
+        "balance": 1470.36,
+        "category": "Shopping",
+        "date": "2024-12-29",
+        "description": "Clothing",
+        "value": 59.15
+    },
+    {
+        "balance": 1546.93,
+        "category": "Entertainment",
+        "date": "2024-12-30",
+        "description": "Movie Theater",
+        "value": 54.02
+    },
+    {
+        "balance": 1492.91,
+        "category": "Utilities",
+        "date": "2024-12-30",
+        "description": "Water Bill",
+        "value": 22.55
+    },
+    {
+        "balance": 1585.3,
+        "category": "Utilities",
+        "date": "2025-01-01",
+        "description": "Internet Bill",
+        "value": 38.37
+    },
+    {
+        "balance": 1714.95,
+        "category": "Groceries",
+        "date": "2025-01-02",
+        "description": "Supermarket",
+        "value": 129.65
+    },
+    {
+        "balance": 1754.46,
+        "category": "Groceries",
+        "date": "2025-01-02",
+        "description": "Grocery Store",
+        "value": 39.51
+    },
+    {
+        "balance": 1790.52,
+        "category": "Shopping",
+        "date": "2025-01-02",
+        "description": "Online Store",
+        "value": 36.06
+    },
+    {
+        "balance": 1931.17,
+        "category": "Entertainment",
+        "date": "2025-01-03",
+        "description": "Streaming Service",
+        "value": 140.65
+    },
+    {
+        "balance": 207.1,
+        "category": "Repayment",
+        "date": "2025-01-07",
+        "description": "Credit Card Payment",
+        "value": -1724.07
+    },
+    {
+        "balance": 211.93,
+        "category": "Fees",
+        "date": "2025-01-07",
+        "description": "Interest Charges",
+        "value": 4.83
+    },
+    {
+        "balance": 39.19,
+        "category": "Repayment",
+        "date": "2025-01-07",
+        "description": "Credit Card Payment",
+        "value": -167.91
+    },
+    {
+        "balance": 40.1,
+        "category": "Fees",
+        "date": "2025-01-07",
+        "description": "Interest Charges",
+        "value": 0.91
+    },
+    {
+        "balance": 52.04,
+        "category": "Travel",
+        "date": "2025-01-09",
+        "description": "Hotel",
+        "value": 12.85
+    },
+    {
+        "balance": 71.31,
+        "category": "Shopping",
+        "date": "2025-01-09",
+        "description": "Clothing",
+        "value": 19.27
+    },
+    {
+        "balance": 125.51,
+        "category": "Travel",
+        "date": "2025-01-10",
+        "description": "Hotel",
+        "value": 54.2
+    },
+    {
+        "balance": 166.57,
+        "category": "Others",
+        "date": "2025-01-11",
+        "description": "Miscellaneous",
+        "value": 41.06
+    },
+    {
+        "balance": 236.62,
+        "category": "Entertainment",
+        "date": "2025-01-12",
+        "description": "Streaming Service",
+        "value": 70.05
+    },
+    {
+        "balance": 282.01,
+        "category": "Travel",
+        "date": "2025-01-12",
+        "description": "Taxi",
+        "value": 45.39
+    },
+    {
+        "balance": 351.26,
+        "category": "Entertainment",
+        "date": "2025-01-12",
+        "description": "Movie Theater",
+        "value": 69.25
+    },
+    {
+        "balance": 363.6,
+        "category": "Others",
+        "date": "2025-01-14",
+        "description": "Miscellaneous",
+        "value": 12.34
+    },
+    {
+        "balance": 438.4,
+        "category": "Travel",
+        "date": "2025-01-16",
+        "description": "Airline",
+        "value": 74.8
+    },
+    {
+        "balance": 579.56,
+        "category": "Entertainment",
+        "date": "2025-01-17",
+        "description": "Concert",
+        "value": 5.31
+    },
+    {
+        "balance": 574.25,
+        "category": "Others",
+        "date": "2025-01-17",
+        "description": "Miscellaneous",
+        "value": 135.85
+    },
+    {
+        "balance": 718.91,
+        "category": "Travel",
+        "date": "2025-01-22",
+        "description": "Airline",
+        "value": 139.35
+    },
+    {
+        "balance": 765.27,
+        "category": "Others",
+        "date": "2025-01-22",
+        "description": "Miscellaneous",
+        "value": 46.36
+    },
+    {
+        "balance": 815.74,
+        "category": "Groceries",
+        "date": "2025-01-23",
+        "description": "Grocery Store",
+        "value": 50.47
+    },
+    {
+        "balance": 889.87,
+        "category": "Groceries",
+        "date": "2025-01-24",
+        "description": "Grocery Store",
+        "value": 74.13
+    },
+    {
+        "balance": 903.12,
+        "category": "Others",
+        "date": "2025-01-24",
+        "description": "Miscellaneous",
+        "value": 13.25
+    },
+    {
+        "balance": 1031.56,
+        "category": "Utilities",
+        "date": "2025-01-24",
+        "description": "Electric Bill",
+        "value": 128.44
+    },
+    {
+        "balance": 1046.41,
+        "category": "Groceries",
+        "date": "2025-01-25",
+        "description": "Grocery Store",
+        "value": 14.85
+    },
+    {
+        "balance": 1198.9,
+        "category": "Utilities",
+        "date": "2025-01-27",
+        "description": "Electric Bill",
+        "value": 88.94
+    },
+    {
+        "balance": 1109.96,
+        "category": "Others",
+        "date": "2025-01-27",
+        "description": "Miscellaneous",
+        "value": 63.55
+    },
+    {
+        "balance": 1215.79,
+        "category": "Groceries",
+        "date": "2025-01-28",
+        "description": "Grocery Store",
+        "value": 16.89
+    },
+    {
+        "balance": 1318.19,
+        "category": "Travel",
+        "date": "2025-01-31",
+        "description": "Taxi",
+        "value": 102.4
+    },
+    {
+        "balance": 1369.04,
+        "category": "Dining",
+        "date": "2025-01-31",
+        "description": "Cafe",
+        "value": 50.85
+    },
+    {
+        "balance": 1375.39,
+        "category": "Others",
+        "date": "2025-02-01",
+        "description": "Miscellaneous",
+        "value": 6.35
+    },
+    {
+        "balance": 1524.82,
+        "category": "Utilities",
+        "date": "2025-02-01",
+        "description": "Internet Bill",
+        "value": 149.43
+    },
+    {
+        "balance": 1560.73,
+        "category": "Groceries",
+        "date": "2025-02-01",
+        "description": "Grocery Store",
+        "value": 35.91
+    },
+    {
+        "balance": 8.74,
+        "category": "Fees",
+        "date": "2025-02-04",
+        "description": "Interest Charges",
+        "value": 0.2
+    },
+    {
+        "balance": 8.54,
+        "category": "Repayment",
+        "date": "2025-02-04",
+        "description": "Credit Card Payment",
+        "value": -278.17
+    },
+    {
+        "balance": 286.71,
+        "category": "Repayment",
+        "date": "2025-02-04",
+        "description": "Credit Card Payment",
+        "value": -1274.02
+    },
+    {
+        "balance": 293.4,
+        "category": "Fees",
+        "date": "2025-02-04",
+        "description": "Interest Charges",
+        "value": 6.69
+    },
+    {
+        "balance": 0.83,
+        "category": "Repayment",
+        "date": "2025-02-07",
+        "description": "Credit Card Payment",
+        "value": -7.71
+    },
+    {
+        "balance": 0.85,
+        "category": "Fees",
+        "date": "2025-02-07",
+        "description": "Interest Charges",
+        "value": 0.02
+    },
+    {
+        "balance": 49.24,
+        "category": "Shopping",
+        "date": "2025-02-08",
+        "description": "Clothing",
+        "value": 48.41
+    },
+    {
+        "balance": 190.38,
+        "category": "Shopping",
+        "date": "2025-02-08",
+        "description": "Mall",
+        "value": 141.14
+    },
+    {
+        "balance": 212.12,
+        "category": "Entertainment",
+        "date": "2025-02-09",
+        "description": "Concert",
+        "value": 21.74
+    },
+    {
+        "balance": 297.34,
+        "category": "Groceries",
+        "date": "2025-02-10",
+        "description": "Grocery Store",
+        "value": 85.22
+    },
+    {
+        "balance": 390.04,
+        "category": "Dining",
+        "date": "2025-02-11",
+        "description": "Cafe",
+        "value": 92.7
+    },
+    {
+        "balance": 424.56,
+        "category": "Shopping",
+        "date": "2025-02-12",
+        "description": "Online Store",
+        "value": 34.52
+    },
+    {
+        "balance": 435.95,
+        "category": "Travel",
+        "date": "2025-02-13",
+        "description": "Airline",
+        "value": 11.39
+    },
+    {
+        "balance": 533.33,
+        "category": "Dining",
+        "date": "2025-02-13",
+        "description": "Restaurant",
+        "value": 97.38
+    },
+    {
+        "balance": 645.81,
+        "category": "Dining",
+        "date": "2025-02-15",
+        "description": "Restaurant",
+        "value": 112.48
+    },
+    {
+        "balance": 712.82,
+        "category": "Utilities",
+        "date": "2025-02-16",
+        "description": "Internet Bill",
+        "value": 67.01
+    },
+    {
+        "balance": 728.73,
+        "category": "Groceries",
+        "date": "2025-02-17",
+        "description": "Supermarket",
+        "value": 15.91
+    },
+    {
+        "balance": 812.84,
+        "category": "Shopping",
+        "date": "2025-02-18",
+        "description": "Mall",
+        "value": 84.11
+    },
+    {
+        "balance": 902.3,
+        "category": "Others",
+        "date": "2025-02-19",
+        "description": "Miscellaneous",
+        "value": 89.46
+    },
+    {
+        "balance": 1037.64,
+        "category": "Others",
+        "date": "2025-02-20",
+        "description": "Miscellaneous",
+        "value": 135.34
+    },
+    {
+        "balance": 1078.82,
+        "category": "Entertainment",
+        "date": "2025-02-21",
+        "description": "Streaming Service",
+        "value": 41.18
+    },
+    {
+        "balance": 1343.15,
+        "category": "Others",
+        "date": "2025-02-22",
+        "description": "Miscellaneous",
+        "value": 146.21
+    },
+    {
+        "balance": 1196.94,
+        "category": "Groceries",
+        "date": "2025-02-22",
+        "description": "Farmers Market",
+        "value": 118.12
+    },
+    {
+        "balance": 1482.39,
+        "category": "Shopping",
+        "date": "2025-02-23",
+        "description": "Mall",
+        "value": 139.24
+    },
+    {
+        "balance": 1628.94,
+        "category": "Entertainment",
+        "date": "2025-02-26",
+        "description": "Movie Theater",
+        "value": 146.55
+    },
+    {
+        "balance": 1759.23,
+        "category": "Travel",
+        "date": "2025-02-27",
+        "description": "Hotel",
+        "value": 130.29
+    },
+    {
+        "balance": 1802.92,
+        "category": "Others",
+        "date": "2025-02-28",
+        "description": "Miscellaneous",
+        "value": 43.69
+    },
+    {
+        "balance": 1863.39,
+        "category": "Others",
+        "date": "2025-03-01",
+        "description": "Miscellaneous",
+        "value": 60.47
+    },
+    {
+        "balance": 1900.64,
+        "category": "Groceries",
+        "date": "2025-03-02",
+        "description": "Farmers Market",
+        "value": 37.25
+    },
+    {
+        "balance": 89.18,
+        "category": "Fees",
+        "date": "2025-03-04",
+        "description": "Interest Charges",
+        "value": 2.03
+    },
+    {
+        "balance": 87.15,
+        "category": "Repayment",
+        "date": "2025-03-04",
+        "description": "Credit Card Payment",
+        "value": -1813.49
+    },
+    {
+        "balance": 14.17,
+        "category": "Repayment",
+        "date": "2025-03-05",
+        "description": "Credit Card Payment",
+        "value": -72.98
+    },
+    {
+        "balance": 14.5,
+        "category": "Fees",
+        "date": "2025-03-05",
+        "description": "Interest Charges",
+        "value": 0.33
+    },
+    {
+        "balance": 0.48,
+        "category": "Repayment",
+        "date": "2025-03-06",
+        "description": "Credit Card Payment",
+        "value": -13.69
+    },
+    {
+        "balance": 0.49,
+        "category": "Fees",
+        "date": "2025-03-06",
+        "description": "Interest Charges",
+        "value": 0.01
+    },
+    {
+        "balance": 0.08,
+        "category": "Repayment",
+        "date": "2025-03-07",
+        "description": "Credit Card Payment",
+        "value": -0.4
+    },
+    {
+        "balance": 0.08,
+        "category": "Fees",
+        "date": "2025-03-07",
+        "description": "Interest Charges",
+        "value": 0.0
+    },
+    {
+        "balance": 53.1,
+        "category": "Shopping",
+        "date": "2025-03-08",
+        "description": "Clothing",
+        "value": 53.02
+    },
+    {
+        "balance": 185.27,
+        "category": "Groceries",
+        "date": "2025-03-08",
+        "description": "Supermarket",
+        "value": 132.17
+    },
+    {
+        "balance": 274.46,
+        "category": "Dining",
+        "date": "2025-03-09",
+        "description": "Restaurant",
+        "value": 89.19
+    },
+    {
+        "balance": 295.18,
+        "category": "Dining",
+        "date": "2025-03-11",
+        "description": "Restaurant",
+        "value": 20.72
+    },
+    {
+        "balance": 327.74,
+        "category": "Travel",
+        "date": "2025-03-13",
+        "description": "Hotel",
+        "value": 32.56
+    },
+    {
+        "balance": 395.97,
+        "category": "Groceries",
+        "date": "2025-03-15",
+        "description": "Grocery Store",
+        "value": 68.23
+    },
+    {
+        "balance": 500.56,
+        "category": "Utilities",
+        "date": "2025-03-15",
+        "description": "Internet Bill",
+        "value": 104.59
+    },
+    {
+        "balance": 602.8,
+        "category": "Shopping",
+        "date": "2025-03-16",
+        "description": "Clothing",
+        "value": 102.24
+    },
+    {
+        "balance": 617.95,
+        "category": "Dining",
+        "date": "2025-03-17",
+        "description": "Cafe",
+        "value": 15.15
+    },
+    {
+        "balance": 713.31,
+        "category": "Shopping",
+        "date": "2025-03-17",
+        "description": "Online Store",
+        "value": 95.36
+    },
+    {
+        "balance": 822.67,
+        "category": "Shopping",
+        "date": "2025-03-18",
+        "description": "Mall",
+        "value": 109.36
+    },
+    {
+        "balance": 872.52,
+        "category": "Dining",
+        "date": "2025-03-19",
+        "description": "Fast Food",
+        "value": 49.85
+    },
+    {
+        "balance": 975.73,
+        "category": "Shopping",
+        "date": "2025-03-21",
+        "description": "Online Store",
+        "value": 103.21
+    },
+    {
+        "balance": 1063.25,
+        "category": "Entertainment",
+        "date": "2025-03-21",
+        "description": "Streaming Service",
+        "value": 87.52
+    },
+    {
+        "balance": 1189.14,
+        "category": "Travel",
+        "date": "2025-03-22",
+        "description": "Hotel",
+        "value": 125.89
+    },
+    {
+        "balance": 1224.62,
+        "category": "Dining",
+        "date": "2025-03-22",
+        "description": "Cafe",
+        "value": 35.48
+    },
+    {
+        "balance": 1297.04,
+        "category": "Others",
+        "date": "2025-03-23",
+        "description": "Miscellaneous",
+        "value": 72.42
+    },
+    {
+        "balance": 1333.03,
+        "category": "Travel",
+        "date": "2025-03-23",
+        "description": "Hotel",
+        "value": 35.99
+    },
+    {
+        "balance": 1362.64,
+        "category": "Travel",
+        "date": "2025-03-24",
+        "description": "Hotel",
+        "value": 29.61
+    },
+    {
+        "balance": 1442.38,
+        "category": "Groceries",
+        "date": "2025-03-25",
+        "description": "Farmers Market",
+        "value": 79.74
+    },
+    {
+        "balance": 1468.75,
+        "category": "Others",
+        "date": "2025-03-27",
+        "description": "Miscellaneous",
+        "value": 26.37
+    },
+    {
+        "balance": 1687.46,
+        "category": "Utilities",
+        "date": "2025-03-28",
+        "description": "Electric Bill",
+        "value": 71.04
+    },
+    {
+        "balance": 1616.42,
+        "category": "Groceries",
+        "date": "2025-03-28",
+        "description": "Supermarket",
+        "value": 147.67
+    },
+    {
+        "balance": 1720.65,
+        "category": "Shopping",
+        "date": "2025-03-29",
+        "description": "Clothing",
+        "value": 33.19
+    },
+    {
+        "balance": 1797.33,
+        "category": "Shopping",
+        "date": "2025-04-01",
+        "description": "Online Store",
+        "value": 76.68
+    },
+    {
+        "balance": 1897.46,
+        "category": "Entertainment",
+        "date": "2025-04-02",
+        "description": "Movie Theater",
+        "value": 100.13
+    },
+    {
+        "balance": 2015.33,
+        "category": "Groceries",
+        "date": "2025-04-02",
+        "description": "Supermarket",
+        "value": 117.87
+    },
+    {
+        "balance": 2153.36,
+        "category": "Utilities",
+        "date": "2025-04-03",
+        "description": "Electric Bill",
+        "value": 138.03
+    },
+    {
+        "balance": 473.01,
+        "category": "Repayment",
+        "date": "2025-04-04",
+        "description": "Credit Card Payment",
+        "value": -1680.35
+    },
+    {
+        "balance": 484.04,
+        "category": "Fees",
+        "date": "2025-04-04",
+        "description": "Interest Charges",
+        "value": 11.03
+    },
+    {
+        "balance": 23.48,
+        "category": "Repayment",
+        "date": "2025-04-06",
+        "description": "Credit Card Payment",
+        "value": -449.53
+    },
+    {
+        "balance": 24.03,
+        "category": "Fees",
+        "date": "2025-04-06",
+        "description": "Interest Charges",
+        "value": 0.55
+    },
+    {
+        "balance": 0.3,
+        "category": "Fees",
+        "date": "2025-04-07",
+        "description": "Interest Charges",
+        "value": 0.01
+    },
+    {
+        "balance": 0.29,
+        "category": "Repayment",
+        "date": "2025-04-07",
+        "description": "Credit Card Payment",
+        "value": -23.19
+    },
+    {
+        "balance": 134.63,
+        "category": "Utilities",
+        "date": "2025-04-08",
+        "description": "Internet Bill",
+        "value": 134.34
+    },
+    {
+        "balance": 204.29,
+        "category": "Travel",
+        "date": "2025-04-09",
+        "description": "Hotel",
+        "value": 69.66
+    },
+    {
+        "balance": 249.5,
+        "category": "Entertainment",
+        "date": "2025-04-12",
+        "description": "Streaming Service",
+        "value": 45.21
+    },
+    {
+        "balance": 345.38,
+        "category": "Others",
+        "date": "2025-04-13",
+        "description": "Miscellaneous",
+        "value": 95.88
+    },
+    {
+        "balance": 361.62,
+        "category": "Dining",
+        "date": "2025-04-13",
+        "description": "Cafe",
+        "value": 16.24
+    },
+    {
+        "balance": 406.02,
+        "category": "Dining",
+        "date": "2025-04-15",
+        "description": "Restaurant",
+        "value": 44.4
+    },
+    {
+        "balance": 483.24,
+        "category": "Entertainment",
+        "date": "2025-04-16",
+        "description": "Movie Theater",
+        "value": 60.54
+    },
+    {
+        "balance": 422.7,
+        "category": "Dining",
+        "date": "2025-04-16",
+        "description": "Fast Food",
+        "value": 16.68
+    },
+    {
+        "balance": 548.53,
+        "category": "Utilities",
+        "date": "2025-04-17",
+        "description": "Water Bill",
+        "value": 65.29
+    },
+    {
+        "balance": 610.0,
+        "category": "Entertainment",
+        "date": "2025-04-18",
+        "description": "Concert",
+        "value": 61.47
+    },
+    {
+        "balance": 739.23,
+        "category": "Others",
+        "date": "2025-04-19",
+        "description": "Miscellaneous",
+        "value": 129.23
+    },
+    {
+        "balance": 813.39,
+        "category": "Others",
+        "date": "2025-04-20",
+        "description": "Miscellaneous",
+        "value": 74.16
+    },
+    {
+        "balance": 927.64,
+        "category": "Dining",
+        "date": "2025-04-20",
+        "description": "Cafe",
+        "value": 114.25
+    },
+    {
+        "balance": 1010.68,
+        "category": "Others",
+        "date": "2025-04-22",
+        "description": "Miscellaneous",
+        "value": 83.04
+    },
+    {
+        "balance": 1112.67,
+        "category": "Travel",
+        "date": "2025-04-24",
+        "description": "Airline",
+        "value": 101.99
+    },
+    {
+        "balance": 1222.68,
+        "category": "Others",
+        "date": "2025-04-25",
+        "description": "Miscellaneous",
+        "value": 110.01
+    },
+    {
+        "balance": 1361.01,
+        "category": "Others",
+        "date": "2025-04-26",
+        "description": "Miscellaneous",
+        "value": 138.33
+    },
+    {
+        "balance": 1554.96,
+        "category": "Groceries",
+        "date": "2025-04-27",
+        "description": "Supermarket",
+        "value": 98.2
+    },
+    {
+        "balance": 1456.76,
+        "category": "Travel",
+        "date": "2025-04-27",
+        "description": "Hotel",
+        "value": 86.84
+    },
+    {
+        "balance": 1369.92,
+        "category": "Utilities",
+        "date": "2025-04-27",
+        "description": "Internet Bill",
+        "value": 8.91
+    },
+    {
+        "balance": 1625.89,
+        "category": "Dining",
+        "date": "2025-05-01",
+        "description": "Restaurant",
+        "value": 70.93
+    },
+    {
+        "balance": 1671.24,
+        "category": "Dining",
+        "date": "2025-05-02",
+        "description": "Cafe",
+        "value": 45.35
+    },
+    {
+        "balance": 1712.82,
+        "category": "Others",
+        "date": "2025-05-03",
+        "description": "Miscellaneous",
+        "value": 41.58
+    },
+    {
+        "balance": 393.13,
+        "category": "Repayment",
+        "date": "2025-05-04",
+        "description": "Credit Card Payment",
+        "value": -1319.69
+    },
+    {
+        "balance": 402.3,
+        "category": "Fees",
+        "date": "2025-05-04",
+        "description": "Interest Charges",
+        "value": 9.17
+    },
+    {
+        "balance": 24.67,
+        "category": "Repayment",
+        "date": "2025-05-04",
+        "description": "Credit Card Payment",
+        "value": -368.46
+    },
+    {
+        "balance": 25.25,
+        "category": "Fees",
+        "date": "2025-05-04",
+        "description": "Interest Charges",
+        "value": 0.58
+    },
+    {
+        "balance": 38.11,
+        "category": "Dining",
+        "date": "2025-05-07",
+        "description": "Restaurant",
+        "value": 13.44
+    },
+    {
+        "balance": 45.73,
+        "category": "Groceries",
+        "date": "2025-05-08",
+        "description": "Grocery Store",
+        "value": 7.62
+    },
+    {
+        "balance": 59.4,
+        "category": "Entertainment",
+        "date": "2025-05-09",
+        "description": "Concert",
+        "value": 13.67
+    },
+    {
+        "balance": 70.68,
+        "category": "Utilities",
+        "date": "2025-05-09",
+        "description": "Electric Bill",
+        "value": 11.28
+    },
+    {
+        "balance": 78.48,
+        "category": "Dining",
+        "date": "2025-05-14",
+        "description": "Cafe",
+        "value": 7.8
+    },
+    {
+        "balance": 92.72,
+        "category": "Utilities",
+        "date": "2025-05-14",
+        "description": "Internet Bill",
+        "value": 14.24
+    },
+    {
+        "balance": 103.2,
+        "category": "Shopping",
+        "date": "2025-05-15",
+        "description": "Online Store",
+        "value": 10.48
+    },
+    {
+        "balance": 109.93,
+        "category": "Shopping",
+        "date": "2025-05-15",
+        "description": "Mall",
+        "value": 6.73
+    },
+    {
+        "balance": 118.61,
+        "category": "Shopping",
+        "date": "2025-05-17",
+        "description": "Clothing",
+        "value": 8.68
+    },
+    {
+        "balance": 134.39,
+        "category": "Shopping",
+        "date": "2025-05-17",
+        "description": "Online Store",
+        "value": 15.78
+    },
+    {
+        "balance": 159.44,
+        "category": "Utilities",
+        "date": "2025-05-19",
+        "description": "Electric Bill",
+        "value": 9.9
+    },
+    {
+        "balance": 149.54,
+        "category": "Utilities",
+        "date": "2025-05-19",
+        "description": "Electric Bill",
+        "value": 15.15
+    },
+    {
+        "balance": 166.52,
+        "category": "Travel",
+        "date": "2025-05-22",
+        "description": "Airline",
+        "value": 7.08
+    },
+    {
+        "balance": 182.78,
+        "category": "Dining",
+        "date": "2025-05-22",
+        "description": "Fast Food",
+        "value": 16.26
+    },
+    {
+        "balance": 190.41,
+        "category": "Travel",
+        "date": "2025-05-24",
+        "description": "Hotel",
+        "value": 7.63
+    },
+    {
+        "balance": 202.35,
+        "category": "Entertainment",
+        "date": "2025-05-24",
+        "description": "Streaming Service",
+        "value": 11.94
+    },
+    {
+        "balance": 215.39,
+        "category": "Shopping",
+        "date": "2025-05-26",
+        "description": "Online Store",
+        "value": 13.04
+    },
+    {
+        "balance": 226.67,
+        "category": "Utilities",
+        "date": "2025-05-27",
+        "description": "Water Bill",
+        "value": 11.28
+    },
+    {
+        "balance": 236.28,
+        "category": "Others",
+        "date": "2025-05-27",
+        "description": "Miscellaneous",
+        "value": 9.61
+    },
+    {
+        "balance": 245.38,
+        "category": "Entertainment",
+        "date": "2025-05-28",
+        "description": "Movie Theater",
+        "value": 9.1
+    },
+    {
+        "balance": 261.17,
+        "category": "Groceries",
+        "date": "2025-05-30",
+        "description": "Farmers Market",
+        "value": 15.79
+    },
+    {
+        "balance": 269.49,
+        "category": "Entertainment",
+        "date": "2025-05-31",
+        "description": "Concert",
+        "value": 8.32
+    },
+    {
+        "balance": 279.31,
+        "category": "Others",
+        "date": "2025-06-01",
+        "description": "Miscellaneous",
+        "value": 9.82
+    },
+    {
+        "balance": 295.44,
+        "category": "Utilities",
+        "date": "2025-06-01",
+        "description": "Internet Bill",
+        "value": 16.13
+    },
+    {
+        "balance": 307.32,
+        "category": "Utilities",
+        "date": "2025-06-02",
+        "description": "Electric Bill",
+        "value": 11.88
+    },
+    {
+        "balance": 315.98,
+        "category": "Entertainment",
+        "date": "2025-06-02",
+        "description": "Movie Theater",
+        "value": 8.66
+    },
+    {
+        "balance": 328.31,
+        "category": "Travel",
+        "date": "2025-06-03",
+        "description": "Airline",
+        "value": 12.33
+    },
+    {
+        "balance": 339.72,
+        "category": "Entertainment",
+        "date": "2025-06-04",
+        "description": "Streaming Service",
+        "value": 11.41
+    },
+    {
+        "balance": 353.32,
+        "category": "Entertainment",
+        "date": "2025-06-05",
+        "description": "Concert",
+        "value": 13.6
+    },
+    {
+        "balance": 365.63,
+        "category": "Dining",
+        "date": "2025-06-05",
+        "description": "Cafe",
+        "value": 12.31
+    },
+    {
+        "balance": 383.12,
+        "category": "Dining",
+        "date": "2025-06-06",
+        "description": "Cafe",
+        "value": 17.49
+    },
+    {
+        "balance": 393.08,
+        "category": "Utilities",
+        "date": "2025-06-07",
+        "description": "Water Bill",
+        "value": 9.96
+    },
+    {
+        "balance": 402.51,
+        "category": "Travel",
+        "date": "2025-06-08",
+        "description": "Airline",
+        "value": 9.43
+    },
+    {
+        "balance": 416.78,
+        "category": "Entertainment",
+        "date": "2025-06-08",
+        "description": "Movie Theater",
+        "value": 14.27
+    },
+    {
+        "balance": 431.31,
+        "category": "Dining",
+        "date": "2025-06-10",
+        "description": "Restaurant",
+        "value": 14.53
+    },
+    {
+        "balance": 439.39,
+        "category": "Others",
+        "date": "2025-06-11",
+        "description": "Miscellaneous",
+        "value": 8.08
+    },
+    {
+        "balance": 448.7,
+        "category": "Others",
+        "date": "2025-06-12",
+        "description": "Miscellaneous",
+        "value": 9.31
+    },
+    {
+        "balance": 458.08,
+        "category": "Dining",
+        "date": "2025-06-14",
+        "description": "Restaurant",
+        "value": 9.38
+    },
+    {
+        "balance": 465.4,
+        "category": "Shopping",
+        "date": "2025-06-14",
+        "description": "Clothing",
+        "value": 7.32
+    },
+    {
+        "balance": 498.05,
+        "category": "Others",
+        "date": "2025-06-16",
+        "description": "Miscellaneous",
+        "value": 7.04
+    },
+    {
+        "balance": 491.01,
+        "category": "Shopping",
+        "date": "2025-06-16",
+        "description": "Mall",
+        "value": 13.3
+    },
+    {
+        "balance": 477.71,
+        "category": "Groceries",
+        "date": "2025-06-16",
+        "description": "Supermarket",
+        "value": 12.31
+    },
+    {
+        "balance": 507.22,
+        "category": "Groceries",
+        "date": "2025-06-17",
+        "description": "Grocery Store",
+        "value": 9.17
+    },
+    {
+        "balance": 517.05,
+        "category": "Travel",
+        "date": "2025-06-18",
+        "description": "Airline",
+        "value": 9.83
+    },
+    {
+        "balance": 528.64,
+        "category": "Groceries",
+        "date": "2025-06-19",
+        "description": "Farmers Market",
+        "value": 11.59
+    },
+    {
+        "balance": 542.51,
+        "category": "Utilities",
+        "date": "2025-06-21",
+        "description": "Internet Bill",
+        "value": 13.87
+    },
+    {
+        "balance": 557.83,
+        "category": "Entertainment",
+        "date": "2025-06-22",
+        "description": "Movie Theater",
+        "value": 15.32
+    },
+    {
+        "balance": 575.29,
+        "category": "Dining",
+        "date": "2025-06-25",
+        "description": "Restaurant",
+        "value": 17.46
+    },
+    {
+        "balance": 590.07,
+        "category": "Groceries",
+        "date": "2025-06-25",
+        "description": "Grocery Store",
+        "value": 14.78
+    },
+    {
+        "balance": 599.48,
+        "category": "Others",
+        "date": "2025-06-28",
+        "description": "Miscellaneous",
+        "value": 9.41
+    },
+    {
+        "balance": 612.45,
+        "category": "Utilities",
+        "date": "2025-06-29",
+        "description": "Electric Bill",
+        "value": 12.97
+    },
+    {
+        "balance": 629.37,
+        "category": "Shopping",
+        "date": "2025-06-29",
+        "description": "Mall",
+        "value": 16.92
+    },
+    {
+        "balance": 637.68,
+        "category": "Entertainment",
+        "date": "2025-06-29",
+        "description": "Streaming Service",
+        "value": 8.31
+    },
+    {
+        "balance": 645.36,
+        "category": "Shopping",
+        "date": "2025-06-30",
+        "description": "Mall",
+        "value": 7.68
+    },
+    {
+        "balance": 652.08,
+        "category": "Entertainment",
+        "date": "2025-07-02",
+        "description": "Streaming Service",
+        "value": 6.72
+    },
+    {
+        "balance": 660.63,
+        "category": "Dining",
+        "date": "2025-07-06",
+        "description": "Restaurant",
+        "value": 8.55
+    },
+    {
+        "balance": 674.69,
+        "category": "Shopping",
+        "date": "2025-07-06",
+        "description": "Online Store",
+        "value": 14.06
+    },
+    {
+        "balance": 688.57,
+        "category": "Travel",
+        "date": "2025-07-06",
+        "description": "Taxi",
+        "value": 13.88
+    },
+    {
+        "balance": 701.31,
+        "category": "Dining",
+        "date": "2025-07-07",
+        "description": "Fast Food",
+        "value": 12.74
+    },
+    {
+        "balance": 712.12,
+        "category": "Others",
+        "date": "2025-07-08",
+        "description": "Miscellaneous",
+        "value": 10.81
+    },
+    {
+        "balance": 727.23,
+        "category": "Groceries",
+        "date": "2025-07-10",
+        "description": "Supermarket",
+        "value": 15.11
+    },
+    {
+        "balance": 742.71,
+        "category": "Utilities",
+        "date": "2025-07-11",
+        "description": "Internet Bill",
+        "value": 15.48
+    },
+    {
+        "balance": 750.01,
+        "category": "Dining",
+        "date": "2025-07-11",
+        "description": "Cafe",
+        "value": 7.3
+    },
+    {
+        "balance": 764.03,
+        "category": "Shopping",
+        "date": "2025-07-12",
+        "description": "Online Store",
+        "value": 14.02
+    },
+    {
+        "balance": 776.18,
+        "category": "Dining",
+        "date": "2025-07-15",
+        "description": "Fast Food",
+        "value": 12.15
+    },
+    {
+        "balance": 789.01,
+        "category": "Travel",
+        "date": "2025-07-16",
+        "description": "Taxi",
+        "value": 12.83
+    },
+    {
+        "balance": 806.54,
+        "category": "Others",
+        "date": "2025-07-17",
+        "description": "Miscellaneous",
+        "value": 17.53
+    },
+    {
+        "balance": 819.12,
+        "category": "Shopping",
+        "date": "2025-07-17",
+        "description": "Online Store",
+        "value": 12.58
+    },
+    {
+        "balance": 830.46,
+        "category": "Others",
+        "date": "2025-07-18",
+        "description": "Miscellaneous",
+        "value": 11.34
+    },
+    {
+        "balance": 857.95,
+        "category": "Entertainment",
+        "date": "2025-07-19",
+        "description": "Streaming Service",
+        "value": 10.94
+    },
+    {
+        "balance": 847.01,
+        "category": "Shopping",
+        "date": "2025-07-19",
+        "description": "Online Store",
+        "value": 16.55
+    },
+    {
+        "balance": 875.12,
+        "category": "Others",
+        "date": "2025-07-21",
+        "description": "Miscellaneous",
+        "value": 17.17
+    },
+    {
+        "balance": 885.74,
+        "category": "Travel",
+        "date": "2025-07-22",
+        "description": "Airline",
+        "value": 10.62
+    },
+    {
+        "balance": 892.81,
+        "category": "Dining",
+        "date": "2025-07-22",
+        "description": "Fast Food",
+        "value": 7.07
+    },
+    {
+        "balance": 899.08,
+        "category": "Travel",
+        "date": "2025-07-26",
+        "description": "Hotel",
+        "value": 6.27
+    },
+    {
+        "balance": 907.87,
+        "category": "Groceries",
+        "date": "2025-07-26",
+        "description": "Farmers Market",
+        "value": 8.79
+    },
+    {
+        "balance": 923.82,
+        "category": "Groceries",
+        "date": "2025-07-27",
+        "description": "Farmers Market",
+        "value": 15.95
+    },
+    {
+        "balance": 937.35,
+        "category": "Others",
+        "date": "2025-07-27",
+        "description": "Miscellaneous",
+        "value": 13.53
+    },
+    {
+        "balance": 958.09,
+        "category": "Entertainment",
+        "date": "2025-07-29",
+        "description": "Streaming Service",
+        "value": 10.07
+    },
+    {
+        "balance": 948.02,
+        "category": "Utilities",
+        "date": "2025-07-29",
+        "description": "Water Bill",
+        "value": 10.67
+    },
+    {
+        "balance": 974.23,
+        "category": "Dining",
+        "date": "2025-07-31",
+        "description": "Cafe",
+        "value": 16.14
+    },
+    {
+        "balance": 980.41,
+        "category": "Travel",
+        "date": "2025-08-01",
+        "description": "Taxi",
+        "value": 6.18
+    },
+    {
+        "balance": 995.6,
+        "category": "Shopping",
+        "date": "2025-08-01",
+        "description": "Clothing",
+        "value": 15.19
+    },
+    {
+        "balance": 1005.08,
+        "category": "Shopping",
+        "date": "2025-08-02",
+        "description": "Mall",
+        "value": 9.48
+    },
+    {
+        "balance": 1015.69,
+        "category": "Groceries",
+        "date": "2025-08-03",
+        "description": "Grocery Store",
+        "value": 10.61
+    },
+    {
+        "balance": 1026.93,
+        "category": "Entertainment",
+        "date": "2025-08-04",
+        "description": "Movie Theater",
+        "value": 11.24
+    },
+    {
+        "balance": 1042.5,
+        "category": "Groceries",
+        "date": "2025-08-05",
+        "description": "Grocery Store",
+        "value": 15.57
+    },
+    {
+        "balance": 1051.75,
+        "category": "Travel",
+        "date": "2025-08-06",
+        "description": "Hotel",
+        "value": 9.25
+    },
+    {
+        "balance": 1059.82,
+        "category": "Entertainment",
+        "date": "2025-08-08",
+        "description": "Concert",
+        "value": 8.07
+    },
+    {
+        "balance": 1108.71,
+        "category": "Others",
+        "date": "2025-08-10",
+        "description": "Miscellaneous",
+        "value": 15.43
+    },
+    {
+        "balance": 1093.28,
+        "category": "Others",
+        "date": "2025-08-10",
+        "description": "Miscellaneous",
+        "value": 9.82
+    },
+    {
+        "balance": 1074.39,
+        "category": "Utilities",
+        "date": "2025-08-10",
+        "description": "Internet Bill",
+        "value": 14.57
+    },
+    {
+        "balance": 1083.46,
+        "category": "Entertainment",
+        "date": "2025-08-10",
+        "description": "Movie Theater",
+        "value": 9.07
+    },
+    {
+        "balance": 1118.04,
+        "category": "Dining",
+        "date": "2025-08-11",
+        "description": "Fast Food",
+        "value": 9.33
+    },
+    {
+        "balance": 1135.56,
+        "category": "Utilities",
+        "date": "2025-08-13",
+        "description": "Internet Bill",
+        "value": 17.52
+    },
+    {
+        "balance": 1146.73,
+        "category": "Others",
+        "date": "2025-08-15",
+        "description": "Miscellaneous",
+        "value": 11.17
+    },
+    {
+        "balance": 1174.36,
+        "category": "Entertainment",
+        "date": "2025-08-16",
+        "description": "Streaming Service",
+        "value": 10.32
+    },
+    {
+        "balance": 1164.04,
+        "category": "Dining",
+        "date": "2025-08-16",
+        "description": "Restaurant",
+        "value": 17.31
+    },
+    {
+        "balance": 1194.8,
+        "category": "Shopping",
+        "date": "2025-08-17",
+        "description": "Online Store",
+        "value": 14.09
+    },
+    {
+        "balance": 1180.71,
+        "category": "Others",
+        "date": "2025-08-17",
+        "description": "Miscellaneous",
+        "value": 6.35
+    },
+    {
+        "balance": 1205.16,
+        "category": "Others",
+        "date": "2025-08-18",
+        "description": "Miscellaneous",
+        "value": 10.36
+    },
+    {
+        "balance": 1222.47,
+        "category": "Shopping",
+        "date": "2025-08-18",
+        "description": "Clothing",
+        "value": 17.31
+    },
+    {
+        "balance": 1229.79,
+        "category": "Travel",
+        "date": "2025-08-20",
+        "description": "Taxi",
+        "value": 7.32
+    },
+    {
+        "balance": 1244.08,
+        "category": "Travel",
+        "date": "2025-08-21",
+        "description": "Taxi",
+        "value": 14.29
+    },
+    {
+        "balance": 1261.26,
+        "category": "Travel",
+        "date": "2025-08-21",
+        "description": "Hotel",
+        "value": 17.18
+    },
+    {
+        "balance": 1276.24,
+        "category": "Groceries",
+        "date": "2025-08-24",
+        "description": "Farmers Market",
+        "value": 14.98
+    },
+    {
+        "balance": 1289.37,
+        "category": "Dining",
+        "date": "2025-08-25",
+        "description": "Cafe",
+        "value": 13.13
+    },
+    {
+        "balance": 1325.21,
+        "category": "Travel",
+        "date": "2025-08-27",
+        "description": "Airline",
+        "value": 13.17
+    },
+    {
+        "balance": 1312.04,
+        "category": "Dining",
+        "date": "2025-08-27",
+        "description": "Fast Food",
+        "value": 15.89
+    },
+    {
+        "balance": 1296.15,
+        "category": "Travel",
+        "date": "2025-08-27",
+        "description": "Hotel",
+        "value": 6.78
+    },
+    {
+        "balance": 1339.78,
+        "category": "Dining",
+        "date": "2025-08-28",
+        "description": "Restaurant",
+        "value": 14.57
+    },
+    {
+        "balance": 1354.51,
+        "category": "Travel",
+        "date": "2025-08-28",
+        "description": "Taxi",
+        "value": 14.73
+    },
+    {
+        "balance": 1365.54,
+        "category": "Shopping",
+        "date": "2025-08-29",
+        "description": "Mall",
+        "value": 11.03
+    },
+    {
+        "balance": 1381.94,
+        "category": "Shopping",
+        "date": "2025-09-01",
+        "description": "Online Store",
+        "value": 16.4
+    },
+    {
+        "balance": 1397.09,
+        "category": "Groceries",
+        "date": "2025-09-01",
+        "description": "Farmers Market",
+        "value": 15.15
+    },
+    {
+        "balance": 1407.31,
+        "category": "Dining",
+        "date": "2025-09-02",
+        "description": "Cafe",
+        "value": 10.22
+    },
+    {
+        "balance": 1419.36,
+        "category": "Entertainment",
+        "date": "2025-09-02",
+        "description": "Movie Theater",
+        "value": 12.05
+    }
+]
