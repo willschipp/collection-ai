@@ -18,63 +18,77 @@ def calculate_minimum_repayment(balance, apr=0.2799):
     
     return round(min_payment, 2)
 
-def calculate_monthly_interest(balance, apr=27.99):
-    if balance <= 0:
-        return 0.0
-    monthly_rate = apr / 100 / 12  # Convert APR to decimal and monthly rate
-    interest = balance * monthly_rate
-    return round(interest, 2)
 
-def accumulate_daily_balance(df):
-    # Ensure 'date' is datetime
-    if not pd.api.types.is_datetime64_any_dtype(df['date']):
-        df['date'] = pd.to_datetime(df['date'])
-
-    # Sum transactions per day
-    daily_totals = df.groupby('date')['value'].sum().reset_index(name='daily_total')
-
-    # Calculate cumulative balance
-    daily_totals['cumulative_balance'] = daily_totals['daily_total'].cumsum()
-
-    return daily_totals    
-
-def add_interest_calculations(df,apr=27.99):
-    # go through a dataframe and find repayments that have a remainding balance
-    # look at the previous months records to get the daily balances
-    # calculate the daily interest rate for that balance (apr/365)
-    # multiply daily balance by the daily apr to get an output
-    # sum and apply as a transaction for that date
+#TODO add late fee element
+def clean_up(df,starting_balance=0.0,apr=0.2799):
+    # forward loop
+    # add running daily balance for interest calcs
+    # update eod balance based on previous day plus transactions
     daily_apr = apr / 365
-    for idx,row in df.iterrows():
-        if row['category'] == 'Repayment':
-            # it's a repayment check
-            if row['balance'] > 0:
-                # didn't pay all of it --> need to loop
-                start_month = row['date'].month
-                start_year = row['date'].year
-                row_index = idx
-                for row_index in range(idx - 1, -1, -1):
-                    current_month = df.loc[row_index,'date']
-                    if current_month.year != start_year or current_month.month != start_month:
-                        # changed --> use this index to grab
-                        break
-                # start at the idx and loop backwards until getting to the change_index
-                accumulative_balance = 0.0
-                accumulative_interest = 0.0                
-                backward_idx = idx
-                for backward_idx in range(idx -1, -1,-1):
-                    if backward_idx == row_index:
-                        break
-                    # get ADB
-                    accumulative_balance += df.loc[backward_idx,'balance']
-                    # get balance * by daily APR
-                    print(f"revert balance {df.loc[backward_idx,'balance']} {daily_apr}")
-                    accumulative_interest += (df.loc[backward_idx,'balance'] * daily_apr)
-                # dump for now
-                print(f"balance {row['balance']} {accumulative_interest}")
+    previous_balance = starting_balance
+    accumulative_eod = 0
+    is_repayment = False
+    idx = 0
+    days_since_repayment = 0
+    while (idx + 1) < len(df.index):
+    # for idx,row in df.iterrows():
+        if is_repayment:
+            # get if the previous value is 0
+            if df.loc[idx-1,'balance'] > 0:
+                # need to process interest
+                # process
+                charge = {
+                    'date': df.loc[idx,'date'],
+                    'value': round(accumulative_eod,2),
+                    'description': 'Interest Charges',
+                    'category': 'Fees',
+                    'balance': round(df.loc[idx-1,'balance'] + accumulative_eod, 2),
+                    'rolling_eod':0.0
+                }            
+                new_charge = pd.DataFrame([charge])
+                upper_part = df.iloc[:idx, :]
+                lower_part = df.iloc[idx:, :]
+                df = pd.concat([upper_part, new_charge, lower_part], ignore_index=True)                
+            # reset
+            accumulative_eod = 0 # always reset
+            is_repayment = False
+            days_since_repayment = 0 # reset
+        elif is_repayment == False and days_since_repayment >= 30:
+            # add an interest charge          
+            # need to process interest
+            # process
+            charge = {
+                'date': df.loc[idx,'date'],
+                'value': round(accumulative_eod,2),
+                'description': 'Interest Charges',
+                'category': 'Fees',
+                'balance': round(df.loc[idx-1,'balance'] + accumulative_eod, 2),
+                'rolling_eod':0.0
+            }            
+            new_charge = pd.DataFrame([charge])
+            upper_part = df.iloc[:idx, :]
+            lower_part = df.iloc[idx:, :]
+            df = pd.concat([upper_part, new_charge, lower_part], ignore_index=True)                
+            accumulative_eod = 0 # always reset
+            is_repayment = False
+            days_since_repayment = 0 # reset
+        else:
+            if df.loc[idx,'category'] == 'Repayment':
+                is_repayment = True # so the next loop will calculate interest if needed
+            # get balance
+            df.at[idx,'balance'] = round(previous_balance + df.loc[idx,'value'], 2)
+            previous_balance = df.loc[idx,'balance'] # set for the next loop
+            df.at[idx,'eod_interest'] = round(previous_balance * daily_apr,2)
+            df.at[idx,'rolling_eod'] = round(accumulative_eod + (round(previous_balance * daily_apr,2)),2)
+            accumulative_eod += round(previous_balance * daily_apr,2)
+            if idx - 1 > 0:
+                if df.loc[idx-1,'date'] != df.loc[idx,'date']: # not the same date
+                    days_since_repayment += 1
+        #loop
+        idx += 1
     return df
 
-
+# randomly generate the transactions
 def generate_cc_transactions(start_date_str,starting_balance=0.0,reduction=0.15):
     np.random.seed(42)
     random.seed(42)
@@ -113,11 +127,17 @@ def generate_cc_transactions(start_date_str,starting_balance=0.0,reduction=0.15)
     for week in range(total_days // 7 + 1):
         week_start = start_date + timedelta(days=week*7)
         week_transaction_dates = generate_dates_for_week(week_start)
+        
+        current_month = week_start.month
+        current_month_paid = False
 
-        for trans_date in week_transaction_dates:
+        for trans_date in week_transaction_dates:            
             day_index = (trans_date - start_date).days
             if day_index >= total_days:
                 break
+
+            # get the month
+            trans_month = trans_date.month
 
             # For first 180 days, normal spending + monthly repayment
             if day_index < 180:
@@ -128,7 +148,7 @@ def generate_cc_transactions(start_date_str,starting_balance=0.0,reduction=0.15)
                    trans_date.day == (start_date + timedelta(days=89)).day or
                    trans_date.day == (start_date + timedelta(days=119)).day or
                    trans_date.day == (start_date + timedelta(days=149)).day):
-                    if balance > 0:
+                    if balance > 0 and current_month_paid == False and current_month == trans_month: # can pay
                         repay_value = -round(random.uniform(0.75, 1.0) * balance, 2)
                         transactions.append({
                             'date': trans_date.strftime("%Y-%m-%d"),
@@ -138,18 +158,7 @@ def generate_cc_transactions(start_date_str,starting_balance=0.0,reduction=0.15)
                             'balance': round(balance + repay_value, 2)
                         })
                         balance += repay_value
-                        # check
-                        if balance > 0:
-                            # add the interest charges
-                            interest_add = calculate_monthly_interest(balance)
-                            transactions.append({
-                                'date': trans_date.strftime("%Y-%m-%d"),
-                                'value': interest_add,
-                                'description': 'Interest Charges',
-                                'category': 'Fees',
-                                'balance': round(balance + interest_add, 2)
-                            })                            
-
+                        current_month_paid = True # paid this month
 
                 # Avoid duplicate repayment on same day
                 if not any(t['date'] == trans_date.strftime("%Y-%m-%d") and t['category'] == 'Repayment' for t in transactions):
@@ -199,7 +208,7 @@ def generate_cc_transactions(start_date_str,starting_balance=0.0,reduction=0.15)
     df = df.sort_values('date').reset_index(drop=True)
     return df
 
-
+# create a simple line chart for quick visual check
 def generate_chart(df,filename='./chart/generated.jpg'):
     df['date'] = pd.to_datetime(df['date'])
     df = df.sort_values('date')
@@ -215,10 +224,20 @@ def generate_chart(df,filename='./chart/generated.jpg'):
     plt.savefig(filename, format='jpeg')
     plt.close()    
 
+def generate():
+    file_date_str = datetime.now().strftime('%Y-%m-%d')
+    json_path = f'./data/generated.{file_date_str}.complete.json'
+    today_str = (datetime.now() - timedelta(days=270)).strftime('%Y-%m-%-d')
+    df = generate_cc_transactions(today_str)
+    df['date'] = pd.to_datetime(df['date'])
+    df.sort_values(by='date').reset_index(drop=True)
+    df = clean_up(df)
+    df.to_json(json_path,orient='records')
+    generate_chart(df,f'./chart/{file_date_str}.generated.jpg')
+    df.to_csv(f'./data/generated.{file_date_str}.complete.csv')
+    # return the dataframe
+    return df, json_path
+
 if __name__ == "__main__":
-    # today_str = (datetime.now() - timedelta(days=270)).strftime('%Y-%m-%-d')
-    # df = generate_cc_transactions(today_str)
-    # generate_chart(df)
-    # load the df
-     df = pd.read_json('../data/generated.2025-08-04.json',orient='records')
-     add_interest_calculations(df)
+    generate()
+    

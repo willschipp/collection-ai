@@ -30,7 +30,7 @@ def summarize_category_spends_by_month(df, category=None):
 
 if __name__ == "__main__":
     # load the data frame and dump it out
-    df = pd.read_json('../data/generated.2025-08-04.json',orient='records')
+    df = pd.read_json('./data/generated.2025-08-06.complete.json',orient='records')
     # summarize
     summary = summarize_category_spends(df)
     print(summary)
