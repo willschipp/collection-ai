@@ -1,0 +1,289 @@
+,date,value,description,category,balance,eod_interest,rolling_eod
+0,2024-11-09,19.86,Streaming Service,Entertainment,19.86,0.02,0.02
+1,2024-11-10,17.61,Clothing,Shopping,37.47,0.03,0.05
+2,2024-11-10,9.32,Taxi,Travel,46.79,0.04,0.09
+3,2024-11-11,78.28,Movie Theater,Entertainment,125.07,0.1,0.19
+4,2024-11-14,33.83,Grocery Store,Groceries,158.9,0.12,0.31
+5,2024-11-16,106.23,Miscellaneous,Others,265.13,0.2,0.51
+6,2024-11-17,27.54,Cafe,Dining,292.67,0.22,0.73
+7,2024-11-18,19.82,Miscellaneous,Others,312.49,0.24,0.97
+8,2024-11-19,57.05,Taxi,Travel,369.54,0.28,1.25
+9,2024-11-20,43.36,Fast Food,Dining,412.9,0.32,1.57
+10,2024-11-22,71.62,Grocery Store,Groceries,484.52,0.37,1.94
+11,2024-11-22,16.43,Farmers Market,Groceries,500.95,0.38,2.32
+12,2024-11-22,94.69,Fast Food,Dining,595.64,0.46,2.78
+13,2024-11-23,147.86,Miscellaneous,Others,743.5,0.57,3.35
+14,2024-11-23,130.64,Miscellaneous,Others,874.14,0.67,4.02
+15,2024-11-24,70.74,Airline,Travel,944.88,0.72,4.74
+16,2024-11-24,28.58,Miscellaneous,Others,973.46,0.75,5.49
+17,2024-11-27,102.18,Restaurant,Dining,1075.64,0.82,6.31
+18,2024-11-28,98.97,Clothing,Shopping,1174.61,0.9,7.21
+19,2024-11-28,29.82,Internet Bill,Utilities,1204.43,0.92,8.13
+20,2024-12-01,104.27,Electric Bill,Utilities,1308.7,1.0,9.13
+21,2024-12-02,38.21,Miscellaneous,Others,1346.91,1.03,10.16
+22,2024-12-03,63.17,Farmers Market,Groceries,1410.08,1.08,11.24
+23,2024-12-03,137.4,Supermarket,Groceries,1547.48,1.19,12.43
+24,2024-12-05,50.63,Internet Bill,Utilities,1598.11,1.23,13.66
+25,2024-12-05,62.37,Online Store,Shopping,1660.48,1.27,14.93
+26,2024-12-08,-1555.46,Credit Card Payment,Repayment,105.02,0.08,15.01
+27,2024-12-09,15.01,Interest Charges,Fees,120.03,,0.0
+28,2024-12-09,57.49,Water Bill,Utilities,162.51,0.12,0.12
+29,2024-12-09,76.56,Streaming Service,Entertainment,239.07,0.18,0.3
+30,2024-12-11,129.86,Miscellaneous,Others,368.93,0.28,0.58
+31,2024-12-11,28.2,Streaming Service,Entertainment,397.13,0.3,0.88
+32,2024-12-12,91.48,Online Store,Shopping,488.61,0.37,1.25
+33,2024-12-14,21.61,Clothing,Shopping,510.22,0.39,1.64
+34,2024-12-16,116.45,Water Bill,Utilities,626.67,0.48,2.12
+35,2024-12-17,5.47,Concert,Entertainment,632.14,0.48,2.6
+36,2024-12-17,47.56,Restaurant,Dining,679.7,0.52,3.12
+37,2024-12-18,43.19,Clothing,Shopping,722.89,0.55,3.67
+38,2024-12-18,78.61,Electric Bill,Utilities,801.5,0.61,4.28
+39,2024-12-18,48.27,Grocery Store,Groceries,849.77,0.65,4.93
+40,2024-12-20,93.3,Clothing,Shopping,943.07,0.72,5.65
+41,2024-12-22,52.0,Grocery Store,Groceries,995.07,0.76,6.41
+42,2024-12-23,139.72,Supermarket,Groceries,1134.79,0.87,7.28
+43,2024-12-25,39.72,Miscellaneous,Others,1174.51,0.9,8.18
+44,2024-12-25,142.31,Streaming Service,Entertainment,1316.82,1.01,9.19
+45,2024-12-27,116.05,Grocery Store,Groceries,1432.87,1.1,10.29
+46,2024-12-27,75.47,Grocery Store,Groceries,1508.34,1.16,11.45
+47,2024-12-29,144.83,Miscellaneous,Others,1653.17,1.27,12.72
+48,2024-12-30,105.03,Internet Bill,Utilities,1758.2,1.35,14.07
+49,2024-12-31,62.85,Online Store,Shopping,1821.05,1.4,15.47
+50,2025-01-01,59.15,Clothing,Shopping,1880.2,1.44,16.91
+51,2025-01-01,22.55,Water Bill,Utilities,1902.75,1.46,18.37
+52,2025-01-02,54.02,Movie Theater,Entertainment,1956.77,1.5,19.87
+53,2025-01-04,15.27,Farmers Market,Groceries,1972.04,1.51,21.38
+54,2025-01-04,14.77,Supermarket,Groceries,1986.81,1.52,22.9
+55,2025-01-05,102.0,Concert,Entertainment,2088.81,1.6,24.5
+56,2025-01-08,-1678.48,Credit Card Payment,Repayment,410.33,0.31,24.81
+57,2025-01-09,24.81,Interest Charges,Fees,435.14,,0.0
+58,2025-01-09,88.55,Clothing,Shopping,498.88,0.38,0.38
+59,2025-01-09,122.09,Concert,Entertainment,620.97,0.48,0.86
+60,2025-01-11,130.26,Airline,Travel,751.23,0.58,1.44
+61,2025-01-11,99.75,Grocery Store,Groceries,850.98,0.65,2.09
+62,2025-01-13,13.79,Mall,Shopping,864.77,0.66,2.75
+63,2025-01-14,121.09,Online Store,Shopping,985.86,0.76,3.51
+64,2025-01-14,32.78,Supermarket,Groceries,1018.64,0.78,4.29
+65,2025-01-16,25.33,Water Bill,Utilities,1043.97,0.8,5.09
+66,2025-01-18,12.34,Miscellaneous,Others,1056.31,0.81,5.9
+67,2025-01-19,145.5,Electric Bill,Utilities,1201.81,0.92,6.82
+68,2025-01-20,29.12,Miscellaneous,Others,1230.93,0.94,7.76
+69,2025-01-21,35.99,Airline,Travel,1266.92,0.97,8.73
+70,2025-01-21,28.87,Taxi,Travel,1295.79,0.99,9.72
+71,2025-01-24,43.45,Farmers Market,Groceries,1339.24,1.03,10.75
+72,2025-01-27,32.54,Taxi,Travel,1371.78,1.05,11.8
+73,2025-01-28,88.98,Movie Theater,Entertainment,1460.76,1.12,12.92
+74,2025-01-29,113.46,Electric Bill,Utilities,1574.22,1.21,14.13
+75,2025-01-30,89.71,Supermarket,Groceries,1663.93,1.28,15.41
+76,2025-01-30,27.83,Internet Bill,Utilities,1691.76,1.3,16.71
+77,2025-01-30,128.44,Electric Bill,Utilities,1820.2,1.4,18.11
+78,2025-01-30,14.85,Grocery Store,Groceries,1835.05,1.41,19.52
+79,2025-01-31,63.55,Miscellaneous,Others,1898.6,1.46,20.98
+80,2025-02-01,86.96,Clothing,Shopping,1985.56,1.52,22.5
+81,2025-02-01,34.62,Cafe,Dining,2020.18,1.55,24.05
+82,2025-02-04,39.61,Online Store,Shopping,2059.79,1.58,25.63
+83,2025-02-05,102.4,Taxi,Travel,2162.19,1.66,27.29
+84,2025-02-05,50.85,Cafe,Dining,2213.04,1.7,28.99
+85,2025-02-05,6.35,Miscellaneous,Others,2219.39,1.7,30.69
+86,2025-02-08,-1738.04,Credit Card Payment,Repayment,481.35,0.37,31.06
+87,2025-02-09,31.06,Interest Charges,Fees,512.41,,0.0
+88,2025-02-09,58.58,Supermarket,Groceries,539.93,0.41,0.41
+89,2025-02-10,125.89,Concert,Entertainment,665.82,0.51,0.92
+90,2025-02-12,93.69,Online Store,Shopping,759.51,0.58,1.5
+91,2025-02-12,101.84,Miscellaneous,Others,861.35,0.66,2.16
+92,2025-02-15,44.49,Electric Bill,Utilities,905.84,0.69,2.85
+93,2025-02-15,109.05,Electric Bill,Utilities,1014.89,0.78,3.63
+94,2025-02-15,96.96,Streaming Service,Entertainment,1111.85,0.85,4.48
+95,2025-02-16,75.84,Fast Food,Dining,1187.69,0.91,5.39
+96,2025-02-17,18.38,Miscellaneous,Others,1206.07,0.92,6.31
+97,2025-02-20,97.38,Restaurant,Dining,1303.45,1.0,7.31
+98,2025-02-20,11.39,Airline,Travel,1314.84,1.01,8.32
+99,2025-02-23,15.91,Supermarket,Groceries,1330.75,1.02,9.34
+100,2025-02-25,84.11,Mall,Shopping,1414.86,1.08,10.42
+101,2025-02-25,89.46,Miscellaneous,Others,1504.32,1.15,11.57
+102,2025-02-26,23.48,Concert,Entertainment,1527.8,1.17,12.74
+103,2025-02-26,135.35,Cafe,Dining,1663.15,1.28,14.02
+104,2025-02-27,41.18,Streaming Service,Entertainment,1704.33,1.31,15.33
+105,2025-02-27,135.34,Miscellaneous,Others,1839.67,1.41,16.74
+106,2025-03-03,27.41,Internet Bill,Utilities,1867.08,1.43,18.17
+107,2025-03-04,146.55,Movie Theater,Entertainment,2013.63,1.54,19.71
+108,2025-03-05,132.81,Miscellaneous,Others,2146.44,1.65,21.36
+109,2025-03-07,-1623.13,Credit Card Payment,Repayment,523.31,0.4,21.76
+110,2025-03-09,21.76,Interest Charges,Fees,545.07,,0.0
+111,2025-03-09,-495.49,Credit Card Payment,Repayment,27.82,0.02,0.02
+112,2025-03-10,0.02,Interest Charges,Fees,27.84,,0.0
+113,2025-03-10,129.5,Taxi,Travel,157.32,0.12,0.12
+114,2025-03-13,123.41,Movie Theater,Entertainment,280.73,0.22,0.34
+115,2025-03-13,49.25,Airline,Travel,329.98,0.25,0.59
+116,2025-03-14,62.78,Mall,Shopping,392.76,0.3,0.89
+117,2025-03-14,145.2,Restaurant,Dining,537.96,0.41,1.3
+118,2025-03-14,37.32,Miscellaneous,Others,575.28,0.44,1.74
+119,2025-03-17,21.72,Restaurant,Dining,597.0,0.46,2.2
+120,2025-03-18,89.19,Restaurant,Dining,686.19,0.53,2.73
+121,2025-03-19,20.72,Restaurant,Dining,706.91,0.54,3.27
+122,2025-03-19,110.64,Airline,Travel,817.55,0.63,3.9
+123,2025-03-20,92.9,Cafe,Dining,910.45,0.7,4.6
+124,2025-03-20,60.85,Electric Bill,Utilities,971.3,0.74,5.34
+125,2025-03-21,41.93,Electric Bill,Utilities,1013.23,0.78,6.12
+126,2025-03-22,57.81,Mall,Shopping,1071.04,0.82,6.94
+127,2025-03-26,101.19,Water Bill,Utilities,1172.23,0.9,7.84
+128,2025-03-26,138.51,Grocery Store,Groceries,1310.74,1.01,8.85
+129,2025-03-27,135.51,Grocery Store,Groceries,1446.25,1.11,9.96
+130,2025-03-27,101.7,Water Bill,Utilities,1547.95,1.19,11.15
+131,2025-03-27,106.1,Cafe,Dining,1654.05,1.27,12.42
+132,2025-03-27,32.82,Electric Bill,Utilities,1686.87,1.29,13.71
+133,2025-03-28,103.21,Online Store,Shopping,1790.08,1.37,15.08
+134,2025-03-31,46.6,Farmers Market,Groceries,1836.68,1.41,16.49
+135,2025-04-01,92.97,Hotel,Travel,1929.65,1.48,17.97
+136,2025-04-02,69.06,Cafe,Dining,1998.71,1.53,19.5
+137,2025-04-02,79.12,Mall,Shopping,2077.83,1.59,21.09
+138,2025-04-02,100.53,Miscellaneous,Others,2178.36,1.67,22.76
+139,2025-04-04,101.26,Fast Food,Dining,2279.62,1.75,24.51
+140,2025-04-05,26.37,Miscellaneous,Others,2305.99,1.77,26.28
+141,2025-04-06,-1756.13,Credit Card Payment,Repayment,549.86,0.42,26.7
+142,2025-04-07,26.7,Interest Charges,Fees,576.56,,0.0
+143,2025-04-07,71.04,Electric Bill,Utilities,620.9,0.48,0.48
+144,2025-04-10,33.19,Clothing,Shopping,654.09,0.5,0.98
+145,2025-04-11,100.13,Movie Theater,Entertainment,754.22,0.58,1.56
+146,2025-04-11,76.68,Online Store,Shopping,830.9,0.64,2.2
+147,2025-04-12,30.5,Taxi,Travel,861.4,0.66,2.86
+148,2025-04-18,72.36,Clothing,Shopping,933.76,0.72,3.58
+149,2025-04-18,138.03,Electric Bill,Utilities,1071.79,0.82,4.4
+150,2025-04-18,24.33,Farmers Market,Groceries,1096.12,0.84,5.24
+151,2025-04-18,82.01,Hotel,Travel,1178.13,0.9,6.14
+152,2025-04-22,135.1,Miscellaneous,Others,1313.23,1.01,7.15
+153,2025-04-22,70.26,Online Store,Shopping,1383.49,1.06,8.21
+154,2025-04-23,126.78,Miscellaneous,Others,1510.27,1.16,9.37
+155,2025-04-23,75.27,Fast Food,Dining,1585.54,1.22,10.59
+156,2025-04-24,68.78,Concert,Entertainment,1654.32,1.27,11.86
+157,2025-04-25,39.0,Online Store,Shopping,1693.32,1.3,13.16
+158,2025-04-25,134.49,Cafe,Dining,1827.81,1.4,14.56
+159,2025-04-27,36.02,Streaming Service,Entertainment,1863.83,1.43,15.99
+160,2025-04-27,52.98,Airline,Travel,1916.81,1.47,17.46
+161,2025-04-27,14.03,Airline,Travel,1930.84,1.48,18.94
+162,2025-04-29,61.47,Miscellaneous,Others,1992.31,1.53,20.47
+163,2025-05-01,129.23,Miscellaneous,Others,2121.54,1.63,22.1
+164,2025-05-03,113.39,Hotel,Travel,2234.93,1.71,23.81
+165,2025-05-05,135.18,Internet Bill,Utilities,2370.11,1.82,25.63
+166,2025-05-05,44.58,Taxi,Travel,2414.69,1.85,27.48
+167,2025-05-06,-2104.19,Credit Card Payment,Repayment,310.5,0.24,27.72
+168,2025-05-09,27.72,Interest Charges,Fees,338.22,,0.0
+169,2025-05-09,14.07,Fast Food,Dining,324.57,0.25,0.25
+170,2025-05-09,7.94,Hotel,Travel,332.51,0.25,0.5
+171,2025-05-09,17.67,Taxi,Travel,350.18,0.27,0.77
+172,2025-05-10,11.08,Grocery Store,Groceries,361.26,0.28,1.05
+173,2025-05-13,8.14,Miscellaneous,Others,369.4,0.28,1.33
+174,2025-05-14,9.87,Cafe,Dining,379.27,0.29,1.62
+175,2025-05-14,10.0,Airline,Travel,389.27,0.3,1.92
+176,2025-05-15,14.94,Airline,Travel,404.21,0.31,2.23
+177,2025-05-17,13.73,Restaurant,Dining,417.94,0.32,2.55
+178,2025-05-17,14.97,Miscellaneous,Others,432.91,0.33,2.88
+179,2025-05-17,15.98,Movie Theater,Entertainment,448.89,0.34,3.22
+180,2025-05-19,8.81,Electric Bill,Utilities,457.7,0.35,3.57
+181,2025-05-20,7.33,Hotel,Travel,465.03,0.36,3.93
+182,2025-05-21,14.31,Concert,Entertainment,479.34,0.37,4.3
+183,2025-05-22,7.97,Miscellaneous,Others,487.31,0.37,4.67
+184,2025-05-23,14.54,Internet Bill,Utilities,501.85,0.38,5.05
+185,2025-05-24,10.7,Online Store,Shopping,512.55,0.39,5.44
+186,2025-05-24,6.87,Mall,Shopping,519.42,0.4,5.84
+187,2025-05-26,8.87,Clothing,Shopping,528.29,0.41,6.25
+188,2025-05-26,16.11,Online Store,Shopping,544.4,0.42,6.67
+189,2025-05-28,15.47,Electric Bill,Utilities,559.87,0.43,7.1
+190,2025-05-28,10.11,Electric Bill,Utilities,569.98,0.44,7.54
+191,2025-05-31,7.23,Airline,Travel,577.21,0.44,7.98
+192,2025-05-31,16.61,Fast Food,Dining,593.82,0.46,8.44
+193,2025-06-02,7.79,Hotel,Travel,601.61,0.46,8.9
+194,2025-06-02,12.19,Streaming Service,Entertainment,613.8,0.47,9.37
+195,2025-06-04,13.32,Online Store,Shopping,627.12,0.48,9.85
+196,2025-06-05,11.52,Water Bill,Utilities,638.64,0.49,10.34
+197,2025-06-05,9.81,Miscellaneous,Others,648.45,0.5,10.84
+198,2025-06-06,9.3,Movie Theater,Entertainment,657.75,0.5,11.34
+199,2025-06-08,16.12,Farmers Market,Groceries,673.87,0.52,11.86
+200,2025-06-09,8.5,Concert,Entertainment,682.37,0.52,12.38
+201,2025-06-10,10.03,Miscellaneous,Others,692.4,0.53,12.91
+202,2025-06-10,16.47,Internet Bill,Utilities,708.87,0.54,13.45
+203,2025-06-11,12.13,Electric Bill,Utilities,721.0,0.55,14.0
+204,2025-06-11,8.85,Movie Theater,Entertainment,729.85,0.56,14.56
+205,2025-06-12,12.59,Airline,Travel,742.44,0.57,15.13
+206,2025-06-13,11.65,Streaming Service,Entertainment,754.09,0.58,15.71
+207,2025-06-14,12.57,Cafe,Dining,766.66,0.59,16.3
+208,2025-06-14,13.89,Concert,Entertainment,780.55,0.6,16.9
+209,2025-06-15,17.86,Cafe,Dining,798.41,0.61,17.51
+210,2025-06-16,10.17,Water Bill,Utilities,808.58,0.62,18.13
+211,2025-06-17,9.63,Airline,Travel,818.21,0.63,18.76
+212,2025-06-17,14.58,Movie Theater,Entertainment,832.79,0.64,19.4
+213,2025-06-19,14.83,Restaurant,Dining,847.62,0.65,20.05
+214,2025-06-20,8.25,Miscellaneous,Others,855.87,0.66,20.71
+215,2025-06-21,20.71,Interest Charges,Fees,876.58,,0.0
+216,2025-06-21,9.5,Miscellaneous,Others,865.37,0.66,0.66
+217,2025-06-23,7.48,Clothing,Shopping,872.85,0.67,1.33
+218,2025-06-23,9.57,Restaurant,Dining,882.42,0.68,2.01
+219,2025-06-25,12.57,Supermarket,Groceries,894.99,0.69,2.7
+220,2025-06-25,13.58,Mall,Shopping,908.57,0.7,3.4
+221,2025-06-25,7.19,Miscellaneous,Others,915.76,0.7,4.1
+222,2025-06-26,9.36,Grocery Store,Groceries,925.12,0.71,4.81
+223,2025-06-27,10.03,Airline,Travel,935.15,0.72,5.53
+224,2025-06-28,11.84,Farmers Market,Groceries,946.99,0.73,6.26
+225,2025-06-30,14.16,Internet Bill,Utilities,961.15,0.74,7.0
+226,2025-07-01,15.65,Movie Theater,Entertainment,976.8,0.75,7.75
+227,2025-07-04,15.09,Grocery Store,Groceries,991.89,0.76,8.51
+228,2025-07-04,17.83,Restaurant,Dining,1009.72,0.77,9.28
+229,2025-07-07,9.61,Miscellaneous,Others,1019.33,0.78,10.06
+230,2025-07-08,13.24,Electric Bill,Utilities,1032.57,0.79,10.85
+231,2025-07-08,17.28,Mall,Shopping,1049.85,0.81,11.66
+232,2025-07-08,8.49,Streaming Service,Entertainment,1058.34,0.81,12.47
+233,2025-07-09,7.84,Mall,Shopping,1066.18,0.82,13.29
+234,2025-07-11,6.86,Streaming Service,Entertainment,1073.04,0.82,14.11
+235,2025-07-15,14.17,Taxi,Travel,1087.21,0.83,14.94
+236,2025-07-15,8.73,Restaurant,Dining,1095.94,0.84,15.78
+237,2025-07-15,14.36,Online Store,Shopping,1110.3,0.85,16.63
+238,2025-07-16,13.01,Fast Food,Dining,1123.31,0.86,17.49
+239,2025-07-17,11.04,Miscellaneous,Others,1134.35,0.87,18.36
+240,2025-07-19,15.43,Supermarket,Groceries,1149.78,0.88,19.24
+241,2025-07-20,15.8,Internet Bill,Utilities,1165.58,0.89,20.13
+242,2025-07-20,7.45,Cafe,Dining,1173.03,0.9,21.03
+243,2025-07-21,14.32,Online Store,Shopping,1187.35,0.91,21.94
+244,2025-07-24,12.41,Fast Food,Dining,1199.76,0.92,22.86
+245,2025-07-25,13.1,Taxi,Travel,1212.86,0.93,23.79
+246,2025-07-26,17.9,Miscellaneous,Others,1230.76,0.94,24.73
+247,2025-07-26,12.84,Online Store,Shopping,1243.6,0.95,25.68
+248,2025-07-27,11.58,Miscellaneous,Others,1255.18,0.96,26.64
+249,2025-07-28,16.9,Online Store,Shopping,1272.08,0.98,27.62
+250,2025-07-28,11.17,Streaming Service,Entertainment,1283.25,0.98,28.6
+251,2025-07-30,17.53,Miscellaneous,Others,1300.78,1.0,29.6
+252,2025-07-31,7.22,Fast Food,Dining,1308.0,1.0,30.6
+253,2025-07-31,10.84,Airline,Travel,1318.84,1.01,31.61
+254,2025-08-04,6.41,Hotel,Travel,1325.25,1.02,32.63
+255,2025-08-04,8.98,Farmers Market,Groceries,1334.23,1.02,33.65
+256,2025-08-05,16.29,Farmers Market,Groceries,1350.52,1.04,34.69
+257,2025-08-05,13.82,Miscellaneous,Others,1364.34,1.05,35.74
+258,2025-08-07,10.9,Water Bill,Utilities,1375.24,1.05,36.79
+259,2025-08-07,10.28,Streaming Service,Entertainment,1385.52,1.06,37.85
+260,2025-08-09,16.48,Cafe,Dining,1402.0,1.08,38.93
+261,2025-08-10,15.51,Clothing,Shopping,1417.51,1.09,40.02
+262,2025-08-10,40.02,Interest Charges,Fees,1457.53,,0.0
+263,2025-08-10,6.31,Taxi,Travel,1423.82,1.09,1.09
+264,2025-08-11,9.68,Mall,Shopping,1433.5,1.1,2.19
+265,2025-08-12,10.84,Grocery Store,Groceries,1444.34,1.11,3.3
+266,2025-08-13,11.47,Movie Theater,Entertainment,1455.81,1.12,4.42
+267,2025-08-14,15.9,Grocery Store,Groceries,1471.71,1.13,5.55
+268,2025-08-15,9.45,Hotel,Travel,1481.16,1.14,6.69
+269,2025-08-17,8.24,Concert,Entertainment,1489.4,1.14,7.83
+270,2025-08-19,15.76,Miscellaneous,Others,1505.16,1.15,8.98
+271,2025-08-19,10.02,Miscellaneous,Others,1515.18,1.16,10.14
+272,2025-08-19,9.26,Movie Theater,Entertainment,1524.44,1.17,11.31
+273,2025-08-19,14.87,Internet Bill,Utilities,1539.31,1.18,12.49
+274,2025-08-20,9.53,Fast Food,Dining,1548.84,1.19,13.68
+275,2025-08-22,17.89,Internet Bill,Utilities,1566.73,1.2,14.88
+276,2025-08-24,11.4,Miscellaneous,Others,1578.13,1.21,16.09
+277,2025-08-25,17.67,Restaurant,Dining,1595.8,1.22,17.31
+278,2025-08-25,10.54,Streaming Service,Entertainment,1606.34,1.23,18.54
+279,2025-08-26,6.49,Miscellaneous,Others,1612.83,1.24,19.78
+280,2025-08-26,14.38,Online Store,Shopping,1627.21,1.25,21.03
+281,2025-08-27,10.57,Miscellaneous,Others,1637.78,1.26,22.29
+282,2025-08-27,17.67,Clothing,Shopping,1655.45,1.27,23.56
+283,2025-08-29,7.47,Taxi,Travel,1662.92,1.28,24.84
+284,2025-08-30,14.59,Taxi,Travel,1677.51,1.29,26.13
+285,2025-08-30,17.54,Hotel,Travel,1695.05,1.3,27.43
+286,2025-09-02,15.29,Farmers Market,Groceries,1710.34,1.31,28.74
+287,2025-09-03,13.41,Cafe,Dining,1723.75,,
